@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <header class="header">
-      <div class="app-name">Blogr</div>
+      <div class="app-name">VueGraph Authenticator</div>
         <div v-if="authStatus" id="nav">
-          <div>{{user.name}}</div>
+          <div> Hi {{user.name}}</div>
           <button class="auth-button" @click="logOut" > Log Out</button>
         </div>
     </header>

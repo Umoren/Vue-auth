@@ -10,7 +10,7 @@
       <input type="password" name="password" placeholder="password" v-model="authDetails.password" />
       <button class="auth-submit">submit</button>
 
-     <p class="auth-text"> Already have an account? <router-link to="/login"> Login </router-link> </p>
+     <p class="auth-text"> Already have an account? <router-link to="/login" style="color:rgb(0, 128, 255)"> Login </router-link> </p>
     </form>
   </div>
 </template>

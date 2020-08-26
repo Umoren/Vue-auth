@@ -10,7 +10,7 @@ Vue.use(VueApollo)
 const AUTH_TOKEN = 'apollo-token'
 
 // Http endpoint
-const httpEndpoint = process.env.VUE_APP_GRAPHQL_HTTP || 'http://localhost:4000/graphql'
+const httpEndpoint = process.env.VUE_APP_GRAPHQL_HTTP || 'https://bloggr-api.herokuapp.com/'
 
 // Config
 

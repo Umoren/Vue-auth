@@ -8,7 +8,7 @@
       <input type="password" name="password" placeholder="password" v-model="authDetails.password" />
       <button class="auth-submit">submit</button>
 
-     <p class="auth-text"> Don't have an account? <router-link to="/"> Register </router-link> </p>
+     <p class="auth-text"> Don't have an account? <router-link style="color:rgb(0, 128, 255)" to="/"> Register </router-link> </p>
     </form>
   </div>
 </template>
